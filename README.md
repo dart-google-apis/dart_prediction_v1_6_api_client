@@ -14,7 +14,7 @@ Adding dependency to pubspec.yaml
 
 ```
   dependencies:
-    google_prediction_v1_6_api: '>=0.3.1'
+    google_prediction_v1_6_api: '>=0.4.2'
 ```
 
 For web applications:

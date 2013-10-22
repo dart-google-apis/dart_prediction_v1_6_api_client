@@ -69,7 +69,7 @@ class Analyze {
   }
 
   /** Return String representation of Analyze */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -107,7 +107,7 @@ class AnalyzeDataDescription {
   }
 
   /** Return String representation of AnalyzeDataDescription */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -162,7 +162,7 @@ class AnalyzeDataDescriptionFeatures {
   }
 
   /** Return String representation of AnalyzeDataDescriptionFeatures */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -200,7 +200,7 @@ class AnalyzeDataDescriptionFeaturesCategorical {
   }
 
   /** Return String representation of AnalyzeDataDescriptionFeaturesCategorical */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -237,7 +237,7 @@ class AnalyzeDataDescriptionFeaturesCategoricalValues {
   }
 
   /** Return String representation of AnalyzeDataDescriptionFeaturesCategoricalValues */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -284,7 +284,7 @@ class AnalyzeDataDescriptionFeaturesNumeric {
   }
 
   /** Return String representation of AnalyzeDataDescriptionFeaturesNumeric */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -313,7 +313,7 @@ class AnalyzeDataDescriptionFeaturesText {
   }
 
   /** Return String representation of AnalyzeDataDescriptionFeaturesText */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -351,7 +351,7 @@ class AnalyzeDataDescriptionOutputFeature {
   }
 
   /** Return String representation of AnalyzeDataDescriptionOutputFeature */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -398,7 +398,7 @@ class AnalyzeDataDescriptionOutputFeatureNumeric {
   }
 
   /** Return String representation of AnalyzeDataDescriptionOutputFeatureNumeric */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -435,7 +435,7 @@ class AnalyzeDataDescriptionOutputFeatureText {
   }
 
   /** Return String representation of AnalyzeDataDescriptionOutputFeatureText */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -482,7 +482,7 @@ class AnalyzeModelDescription {
   }
 
   /** Return String representation of AnalyzeModelDescription */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -510,7 +510,7 @@ class Input {
   }
 
   /** Return String representation of Input */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -539,7 +539,7 @@ class InputInput {
   }
 
   /** Return String representation of InputInput */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -630,7 +630,7 @@ class Insert {
   }
 
   /** Return String representation of Insert */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -667,7 +667,7 @@ class InsertTrainingInstances {
   }
 
   /** Return String representation of InsertTrainingInstances */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -785,7 +785,7 @@ class Insert2 {
   }
 
   /** Return String representation of Insert2 */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -859,7 +859,7 @@ class Insert2ModelInfo {
   }
 
   /** Return String representation of Insert2ModelInfo */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -914,7 +914,7 @@ class List {
   }
 
   /** Return String representation of List */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -987,7 +987,7 @@ class Output {
   }
 
   /** Return String representation of Output */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -1024,7 +1024,7 @@ class OutputOutputMulti {
   }
 
   /** Return String representation of OutputOutputMulti */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
@@ -1061,7 +1061,7 @@ class Update {
   }
 
   /** Return String representation of Update */
-  core.String toString() => JSON.stringify(this.toJson());
+  core.String toString() => JSON.encode(this.toJson());
 
 }
 
