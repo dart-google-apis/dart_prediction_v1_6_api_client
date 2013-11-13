@@ -933,7 +933,7 @@ class Output {
   core.List<OutputOutputMulti> outputMulti;
 
   /** The estimated regression value (Regression models only). */
-  core.num outputValue;
+  core.String outputValue;
 
   /** A URL to re-request this resource. */
   core.String selfLink;
